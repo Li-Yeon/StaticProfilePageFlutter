@@ -38,6 +38,40 @@ class ProfileCard extends StatelessWidget {
                 fontWeight: FontWeight.bold
               ),
             ),
+            SizedBox(height: 30),
+            Text(
+              'CURRENT LEVEL',
+              style: TextStyle(
+                color: Colors.grey,
+                letterSpacing: 2
+              ),
+            ),
+            SizedBox(height: 10),
+            Text(
+              '27',
+              style: TextStyle(
+                color: Colors.amberAccent[200],
+                letterSpacing: 2,
+                fontSize: 28,
+                fontWeight: FontWeight.bold
+              ),
+            ),
+            SizedBox(height: 30),
+            Row(
+              children : [
+                Icon(
+                  Icons.email,
+                  color: Colors.grey[400],
+                    ),
+                SizedBox(width: 10),
+                Text('mekaleon27@gmail.com',
+                      style: TextStyle(
+                        color: Colors.grey[400],
+                        fontSize: 18,
+                        letterSpacing: 1
+                      ))
+              ]
+            )
           ],
         ),
       )
