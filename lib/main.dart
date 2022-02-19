@@ -8,8 +8,13 @@ class ProfileCard extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      
+    return Scaffold(
+      appBar: AppBar(
+        title: Text('Profile Card'),
+        centerTitle: true,
+        backgroundColor: Colors.grey[850],
+        elevation: 0
+      )
     );
   }
 }
