@@ -21,6 +21,16 @@ class ProfileCard extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
+            Center(
+              child: CircleAvatar(
+                backgroundImage: AssetImage('assets/profile.jpg'),
+                radius: 60,
+              ),
+            ),
+            Divider(
+              height: 60,
+              color: Colors.grey[800],
+            ),
             Text(
               'NAME',
               style: TextStyle(
